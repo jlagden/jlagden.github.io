@@ -4,7 +4,7 @@ from __future__ import unicode_literals
 
 AUTHOR = 'Joe'
 SITENAME = 'binary.org.uk'
-SITEURL = ''
+SITEURL = 'http://www.binary.org.uk'
 
 PATH = 'content'
 
@@ -32,7 +32,10 @@ SOCIAL = (('You can add links in your config file', '#'),
 
 DEFAULT_PAGINATION = 10
 
-STATIC_PATHS = ['images', 'videos']
+#STATIC_PATHS = ['images', 'videos']
+STATIC_PATHS = ['images','extra/CNAME','videos']
+EXTRA_PATH_METADATA = {'extra/CNAME': {'path':'CNAME'},}
+
 
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
