@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>binary.org.uk - Review</title><link href="http://binary.org.uk/" rel="alternate"></link><link href="http://binary.org.uk/feeds/review.atom.xml" rel="self"></link><id>http://binary.org.uk/</id><updated>2010-12-03T10:20:00+00:00</updated><entry><title>Test</title><link href="http://binary.org.uk/test.html" rel="alternate"></link><published>2010-12-03T10:20:00+00:00</published><updated>2010-12-03T10:20:00+00:00</updated><author><name>Joe</name></author><id>tag:binary.org.uk,2010-12-03:/test.html</id><summary type="html">&lt;p&gt;Following is a review of my favorite mechanical keyboard.&lt;/p&gt;
+&lt;video id="tree" controls preload="auto" width="683" height="384"&gt;
+&lt;source src="/videos/tree.mp4" type='video/mp4'&gt;
+&lt;/video&gt;</summary><content type="html">&lt;p&gt;Following is a review of my favorite mechanical keyboard.&lt;/p&gt;
+&lt;video id="tree" controls preload="auto" width="683" height="384"&gt;
+&lt;source src="/videos/tree.mp4" type='video/mp4'&gt;
+&lt;/video&gt;</content></entry></feed>
