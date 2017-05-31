@@ -27,9 +27,9 @@ LINKS = (('Pelican', 'http://getpelican.com/'),
          ('You can modify those links in your config file', '#'),)
 
 # Social widget
-SOCIAL = (('You can add links in your config file', '#'),
-          ('Another social link', '#'),)
-
+SOCIAL = (('github', 'https://github.com/jlagden'),
+          ('stack-overflow', 'https://stackoverflow.com/users/4120713/joe'),)
+		  
 DEFAULT_PAGINATION = 10
 
 #STATIC_PATHS = ['images', 'videos']
