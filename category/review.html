@@ -68,15 +68,103 @@
 
 
             <article class="uk-article" itemtype="http://schema.org/BlogPosting" itemscope="itemscope" itemprop="blogPost">
-                <a href="http://binary.org.uk/banggood-led-christmas-tree-kit.html" class="uk-article-title uk-link-muted" itemprop="name">Banggood LED Christmas Tree Kit</a>
-                <p class="uk-article-meta"><time datetime="2016-12-03" itemprop="datePublished">Sat 03 December 2016</time> • <a href="http://binary.org.uk/category/review.html">Review</a></p>
+                <a href="http://binary.org.uk/building-the-pidp-8-kit.html" class="uk-article-title uk-link-muted" itemprop="name">Building the PiDP-8 Kit</a>
+                <p class="uk-article-meta"><time datetime="2018-08-19" itemprop="datePublished">Sun 19 August 2018</time> • <a href="http://binary.org.uk/category/review.html">Review</a></p>
 </p>
-                <p class="uk-article-lead" itemprop="description">Review of the Banggood LED Christmas Tree Kit</p>
-                <section itemprop="articleBody"><p>Following is a review of the Banggood LED Christmas Tree Kit</p>
-<video id="tree" controls preload="auto" width="683" height="384">
-<source src="/videos/tree.mp4" type='video/mp4'>
-</video></section>
-                <a href="http://binary.org.uk/banggood-led-christmas-tree-kit.html#disqus_thread"></a>
+                <p class="uk-article-lead" itemprop="description"></p>
+                <section itemprop="articleBody"><p>Here is my experience of building the <a href="http://obsolescence.wixsite.com/obsolescence/pidp-8">Obsolescence Guaranteed PiDP-8</a> Kit. </p>
+<p><a href="images/pidp/final.jpg"><img alt="Alt text" src="/images/pidp/small/final_small.jpg"></a></p>
+<p>I won't go over the entire process to build the kit, there's already a lot of information available on Oscars site and plenty of other people have done descriptions of their builds.</p>
+<p>I will however detail some of the issues I had and any changes I made below:</p>
+<p><strong>PCB and Soldering</strong></p>
+<ul>
+<li>
+<p>I used the chip holder to hold the LEDs in place when soldering - It was quite short (could only hold about 3 LEDs at a time) 
+but I just moved it along the row so the previous 2 LEDs were holding the next one in place.</p>
+</li>
+<li>
+<p>I burnt the plastic of one switch with my soldering iron and another switch didn't work when tested. I got two replacement
+switches from Oscar but the one I thought wasn't working started working, so I now have a spare :)</p>
+</li>
+<li>
+<p>I noticed some of the screw and solder holes are visible behind the front panel so I masked them up with black tape.</p>
+</li>
+</ul>
+<p><a href="/images/pidp/components.jpg"><img alt="Alt text" src="/images/pidp/small/components_small.jpg"></a>
+<a href="/images/pidp/board1.jpg"><img alt="Alt text" src="/images/pidp/small/board1_small.jpg"></a>
+<a href="/images/pidp/board2.jpg"><img alt="Alt text" src="/images/pidp/small/board2_small.jpg"></a>
+<a href="/images/pidp/board3.jpg"><img alt="Alt text" src="/images/pidp/small/board3_small.jpg"></a>
+<a href="/images/pidp/board4.jpg"><img alt="Alt text" src="/images/pidp/small/board4_small.jpg"></a>
+<a href="/images/pidp/board5.jpg"><img alt="Alt text" src="/images/pidp/small/board5_small.jpg"></a></p>
+<p><strong>Spacewar Panel Test</strong></p>
+<video id="tree" controls preload="auto" width="360" height="240">
+<source src="/videos/spacewar_panel_test.mp4" type='video/mp4'>
+</video>
+
+<p><strong>Mounting</strong></p>
+<ul>
+<li>I used the blocks in the way Oscar details. For the long block I tried to test fit the pcb and panel with the block 
+underneath - I went with 1mm overhang in the end (2mm would be too much). I figured I could also sand down the block (some
+people were reporting it needed to be flush with the pcb with no overhang).
+In the end I found the pcb refused to sit up against the right hand side of the case (even with all the screws holding the block) so I had to wedge 
+some folded paper in the left hand side to stop the pcb going over to the left.</li>
+</ul>
+<p><a href="/images/pidp/mounting_blocks1.jpg"><img alt="Alt text" src="/images/pidp/small/mounting_blocks1_small.jpg"></a></p>
+<ul>
+<li>I also shaved of a corner of the long block using a plane so it would not touch the solder points and would sit flat (see photos)</li>
+</ul>
+<p><a href="/images/pidp/mounting_blocks2.jpg"><img alt="Alt text" src="/images/pidp/small/mounting_blocks2_small.jpg"></a>
+<a href="/images/pidp/mounting_blocks3.jpg"><img alt="Alt text" src="/images/pidp/small/mounting_blocks3_small.jpg"></a></p>
+<ul>
+<li>With the two small blocks I tried to place them as Oscar had in the photo. One of the blocks was conflicting with the solder
+points so I had to cut a chunk of the wood out to make it sit flat. It looks a little flimsy now but I don't think it will cause problems.</li>
+</ul>
+<p><a href="/images/pidp/mounting_blocks4.jpg"><img alt="Alt text" src="/images/pidp/small/mounting_blocks4_small.jpg"></a></p>
+<ul>
+<li>Another problem people report is that the panel does not sit right because the bottom is sitting on top of the switch tags.
+I decided to cut of some of the lip using some craft knifes.</li>
+</ul>
+<p><strong>Finishing touches</strong></p>
+<ul>
+<li>
+<p>I also found the panel wouldn't fit very well without bending outwards, so I also had to shave some bamboo at the sides. 
+Where I had been struggling to fit it some of the panel markings came off around the edge. 
+Using some black paint on the panel I went over these and it made it look a lot better.</p>
+</li>
+<li>
+<p>I made a hole in the top corner - this seemed the most sensible since the pi zero connectors are there and it was the shortest distance to them.</p>
+</li>
+</ul>
+<p><a href="/images/pidp/rear.jpg"><img alt="Alt text" src="/images/pidp/small/rear_small.jpg"></a></p>
+<ul>
+<li>
+<p>For the power cable I used a USB cable with an integrated switch. I thought having a USB connector made more sense
+as it meant I could power it from pretty much anything with a USB port.</p>
+</li>
+<li>
+<p>I decided to get one of the usb/ethernet hubs as Oscar had and mount on the back, this lights up blue when the pi is powered
+meaning it doubles up as a discrete power light.</p>
+</li>
+</ul>
+<p><a href="/images/pidp/usb_hub_and_serial.jpg"><img alt="Alt text" src="/images/pidp/small/usb_hub_and_serial_small.jpg"></a></p>
+<ul>
+<li>I added some plastic feet on the bottom to stop it moving when the switches are used.</li>
+</ul>
+<p><a href="/images/pidp/feet.jpg"><img alt="Alt text" src="/images/pidp/small/feet_small.jpg"></a></p>
+<p><strong>Serial port</strong></p>
+<ul>
+<li>I wanted to be able to connect to the PiDP-8 but didn't want to rely on the wireless as being the only way.
+Enabling the serial port seemed like a lot of hassle so I went with the USB serial ttl route as Oscar suggested. 
+Instead of 2 cables I ended up getting 1 cable plus another unit built into a stick with the pins on it.
+This meant I could plug it into the hub and wire up the cable.</li>
+</ul>
+<p>Here we are running <a href="https://en.wikipedia.org/wiki/Colossal_Cave_Adventure">"Adventure"</a> in a terminal.</p>
+<p><a href="images/pidp/adventure.png"><img alt="Alt text" src="/images/pidp/small/adventure_small.png"></a></p>
+<p><strong>Conclusion</strong> </p>
+<p>This is a great little project.
+The soldering work is not difficult at all assuming you have some basic soldering skills.
+There are a few places you might get caught out but as long as you read through Oscar's notes several times and plan ahead you shouldn't have any big issues. </p></section>
+                <a href="http://binary.org.uk/building-the-pidp-8-kit.html#disqus_thread"></a>
                 <hr class="uk-article-divider">
             </article>
 
