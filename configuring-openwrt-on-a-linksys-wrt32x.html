@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-        <title>binary.org.uk - Joe</title>
+        <title>Configuring OpenWRT on a Linksys WRT32X</title>
         <meta charset="utf-8" />
         <link rel="stylesheet" href="http://binary.org.uk/theme/css/main.css" type="text/css" />
         <link href="http://binary.org.uk/" type="application/atom+xml" rel="alternate" title="binary.org.uk ATOM Feed" />
@@ -27,9 +27,11 @@
                 </ul></nav>
         </header><!-- /#banner -->
 
-     <section id="content" class="body">
-        <aside id="featured"><article>
-                <h1 class="entry-title"><a href="http://binary.org.uk/configuring-openwrt-on-a-linksys-wrt32x.html">Configuring OpenWRT on a Linksys WRT32X</a></h1>
+<section id="content" class="body">
+<article>
+        <header> <h1 class="entry-title"><a href="configuring-openwrt-on-a-linksys-wrt32x.html"
+        rel="bookmark" title="Permalink to Configuring OpenWRT on a Linksys WRT32X">Configuring OpenWRT on a Linksys WRT32X</a></h1>  </header>
+        <div class="entry-content">
 <footer class="post-info">
         <abbr class="published" title="2019-03-05T21:20:00+00:00">
                 Tue 05 March 2019
@@ -40,7 +42,7 @@
         </address>
 <p>In <a href="http://binary.org.uk/category/guide.html">Guide</a>. </p>
 </p></footer><!-- /.post-info --><!-- /.post-info -->
-                <p>A recent update of <a href="https://openwrt.org/">OpenWrt</a> on my <a href="https://openwrt.org/toh/tp-link/tl-wr1043nd">TP-Link TL-WR1043ND</a> proved a bit too much for it.
+        <p>A recent update of <a href="https://openwrt.org/">OpenWrt</a> on my <a href="https://openwrt.org/toh/tp-link/tl-wr1043nd">TP-Link TL-WR1043ND</a> proved a bit too much for it.
 <a href="https://openwrt.org/releases/18.06/notes-18.06.2">OpenWrt 18.06.2</a> installed ok but free space was lacking and opkg didn't work well.</p>
 <p>Setting up a build environment and building a custom image would take a bit of time, and I noticed the Linksys WRT32X was going relatively cheap in the UK.</p>
 <p>So I bought one, meaning I could start using that and build the image for the TP-Link at my leisure another time.</p>
@@ -383,38 +385,16 @@ domain=guest.lan,192.168.2.0/24,local
 <div class="highlight"><pre><span></span>echo &quot;conf-file=/etc/dnsmasq.conf.domains&quot; &gt;&gt; /etc/dnsmasq.conf
 echo &quot;/etc/dnsmasq.conf.domains&quot; &gt;&gt; /etc/sysupgrade.conf
 </pre></div>
-        </article></aside><!-- /#featured -->
-                <h1>Other articles</h1>
-                <hr />
-                    <ol id="posts-list" class="hfeed">
-        <li><article class="hentry">
-                <header>
-                        <h1><a href="http://binary.org.uk/building-the-pidp-8-kit.html" rel="bookmark" title="Permalink to Building the PiDP-8 Kit">Building the PiDP-8 Kit</a></h1>
-                </header>
+        </div><!-- /.entry-content -->
 
-                <div class="entry-content">
-<footer class="post-info">
-        <abbr class="published" title="2018-08-19T18:00:00+01:00">
-                Sun 19 August 2018
-        </abbr>
-
-        <address class="vcard author">
-                By <a class="url fn" href="http://binary.org.uk/author/joe.html">Joe</a>
-        </address>
-<p>In <a href="http://binary.org.uk/category/review.html">Review</a>. </p>
-</p></footer><!-- /.post-info --><!-- /.post-info -->
-                
-                <a class="readmore" href="http://binary.org.uk/building-the-pidp-8-kit.html">read more</a>
-                </div><!-- /.entry-content -->
-        </article></li>
-</ol><!-- /#posts-list -->
-</section><!-- /#content -->
+</article>
+</section>
 
         <aside id="sidebar">
                 <div class="widget">
                         <h2>Categories</h2>
                         <ul>
-                           <li ><a href="http://binary.org.uk/category/guide.html">Guide</a></li>
+                           <li class="active"><a href="http://binary.org.uk/category/guide.html">Guide</a></li>
                            <li ><a href="http://binary.org.uk/category/review.html">Review</a></li>
                         </ul>
                 </div>
